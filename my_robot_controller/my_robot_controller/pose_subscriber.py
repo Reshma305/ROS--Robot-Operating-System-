@@ -2,6 +2,7 @@
 import rclpy  # type: ignore
 from rclpy.node import Node  # type: ignore
 from turtlesim.msg import Pose  # type: ignore
+from geometry_msgs.msg import Twist  # type: ignore
 
 class PoseSubscriberNode(Node):
     def __init__(self):
